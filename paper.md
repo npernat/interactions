@@ -22,6 +22,7 @@ authors_short: Last et al. (2021) BioHackrXiv  template
 group: BioHackrXiv
 event: Alien-CSI Hackathon, Romania, 2022
 biohackathon_name: Alien-CSI Hackathon, Romania, 2022
+biohackathon_url: https://alien-csi.eu/
 ---
 
 # Introduction
