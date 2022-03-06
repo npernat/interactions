@@ -23,9 +23,9 @@ group: BioHackrXiv
 event: BioHackathon Europe 2021
 ---
 
-# Introduction or Background
+# Introduction
 
-Add to this section a couple of paragraphs introducing the work done dring the BioHackathon, CodeFest, VoCamp or Sprint event. Please add references whenever needed, for instance [@Katayama:2010].
+Knowing and understanding the interactions between organisms is key to understanding the impacts those organisms have on each other. This is particularly important for invasive species risk assessment where experts try to predict the impacts of an invasive species in a novel region and ecological context [@10.1007/s10530-015-0843-1].
 
 Please separate paragraphs with a double line.
 
