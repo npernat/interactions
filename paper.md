@@ -34,7 +34,11 @@ Knowing and understanding the interactions between organisms is key to understan
 
 Please separate paragraphs with a double line.
 
-## Subsection level 2
+## Aims
+
+* To gather interaction data for invasive species and the habits they invade
+* To visualize the interactions we gather to make them more useful for risk assessment
+* To use the data we have collected to assess the risks of an invasive species
 
 Please keep sections to a maximum of three levels, even better if only two levels.
 
