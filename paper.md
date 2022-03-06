@@ -1,18 +1,20 @@
 ---
-title: 'BioHackrXiv  template'
+title: 'Wasps, interactions and risks'
 tags:
-  - replace with your own keywords
-  - at least 3 is recommended
+  - invasive species
+  - risk assessment
+  - Megachile sculpturalis
+  - Isodontia mexicana
 authors:
-  - name: First Last
-    orcid: 0000-0000-0000-0000
+  - name: Quentin Groom
+    orcid: 0000-0002-0596-5376
     affiliation: 1
   - name: Second Last
     orcid: 0000-0000-0000-0000
     affiliation: 2
 
 affiliations:
- - name: Institution 1, address, city, country
+ - name: Meise Botanic Garden, Nieuwelaan 38, 1860 Meise, Belgium
    index: 1
  - name: Institution 1, address, city, country
    index: 2
@@ -79,8 +81,6 @@ For citations of references, we prefer the use of parenthesis, last name and yea
 * And remember, software and data need a license for them to be used by others, no license means no clear rules so nobody could legally use a non-licensed research object, whatever that object is
 
 # Acknowledgements
-Please always remember to acknowledge the BioHackathon, CodeFest, VoCamp, Sprint or similar where this work was (partially) developed.
+This paper is a product of the COST Action CA17122 - Alien-CSI supported by COST (European Cooperation in Science and Technology) <[www.cost.eu](https://www.cost.eu/)>
 
 # References
-
-Leave thise section blank, create a paper.bib with all your references.
