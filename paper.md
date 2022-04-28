@@ -79,7 +79,7 @@ To review plantNet candidates, botanical experts examined the iNaturalist images
 
 The identification of plant species from the iNaturalists images were done blind, meaning, the suggestions of the App for the single images were not provided. During the time of the Hackathon the expert botanists could identify a subset of ~300 iNaturalist images, of which we used 250 for this test study. Of these 250 images, a plant species was identified in 15.2%, a plant genus on 44.4%, and a plant family on 69.2% (Table 1) by the botanists.
 
-Table 1: Proportion of identifiable plant species, genera and families from iNaturalist images by experts (need_id = plant unknown to the botanist, noflower = plant, but no flower, unidentifiable = no plant at all).
+**Table 1**: Proportion of identifiable plant species, genera and families from iNaturalist images by experts (need_id = plant unknown to the botanist, noflower = plant, but no flower, unidentifiable = no plant at all).
 | **Species** | **n** | **%** |
 |---|---|---|
 | identified | 38 | 15.2 |
@@ -102,12 +102,12 @@ Table 1: Proportion of identifiable plant species, genera and families from iNat
 Expert and App datasets were merged with the complete range of suggestions by plantNet, meaning that the expert identification was multiplied by the corresponding length of the plant suggestion list for every image. As a result, the merged dataset consisted of 10782 rows despite only 250 images. Descriptive analysis and figures were made in R-4.1.0 (R Core Team, 2022), applying package *tidyverse* [@10.21105/joss.01686].
 
 ## Results
-*Accuracy of species identification by plantNet App*
+### Accuracy of species identification by plantNet App
 The maximum score obtained by the App was 0.94, the minimum score was 0.001 (lower limit of the score), the mean total score was 0.011, and the median was 0.002. The mean score per image was 0.0174. Including all species suggestions from plantNet in the analysis of identical identification by the App and experts, we found 0.2 % matches at the species level, 26.8 % matches at the genus level, and 53.8 % matches at the family level. These percent matches were low, as expected, because all suggestions were included in the calculation (i.e., all candidate species scores, including those with the lowest probability). 
 
 To obtain a better assessment of the App's performance and accuracy thresholds, the comparative analysis continued with only the first suggestion (highest score) for each image. Table 2 shows the percentage matches between plantNet and the expert identification for different score thresholds, considering only the observations that were identified by the experts (i.e., did not fall into any of the *unidentifiable*, *need_id*, or *noflower* categories). 
 
-Table 2: Total and percentage of agreement between plantNet and expert species identification at different score thresholds up- and downward. The differences between number of observations and number of matching ranks result from the exclusion of images unidentified by the experts.
+**Table 2**: Total and percentage of agreement between plantNet and expert species identification at different score thresholds up- and downward. The differences between number of observations and number of matching ranks result from the exclusion of images unidentified by the experts.
 | Agreement App/Experts | species n (%) | genus n (%) | family n (%) |
 |-----------------------|---------------|-------------|--------------|
 | Score > 0.8 (n = 5)   | 4 (80)        | 5 (83.3)    | 6 (100)      |
@@ -117,13 +117,16 @@ Table 2: Total and percentage of agreement between plantNet and expert species i
 | all scores            | 12 (30.7)     | 61 (56.0)   | 129 (75.4)   |
 
 
-*List of plant species, genera and family visited by I. mexicana*
+### List of plant species, genera and family visited by I. mexicana
 Figure 2 illustrates for which plant species, genera and families the identification matched with a score higher than 0.5. To update the plant species list *I. mexicana* interacts with, we tabled all results from the experts verifying the iNaturalist images manually, independent from the scores of the App (Table 3). 
+
 
 ![](./Figures/Figure2_sm.jpeg)
 **Figure 2.** Matching plant species (a), genera (b) and families (c) from expert and app identification, with scores higher than 0.8 or 0.5, respectively.
 
-Table 3: List of plant species visited by *I. mexicana* from expert verification of iNaturalist images and from plantNet with scores higher than >0.5, aligned with what is known from the literature. In bold are the identifications that matched between the App and the experts for the same image. The third column, ‘Romania’,  in each case displays matching feeding and visitation plants from Romania (based on GloBI (reference)), the host location of the Hackathon, as iNaturalists provides no observations for *I. mexicana* from that country. For better readability, the table is sorted by descending number of expert identifications.
+
+
+**Table 3**: List of plant species visited by *I. mexicana* from expert verification of iNaturalist images and from plantNet with scores higher than >0.5, aligned with what is known from the literature. In bold are the identifications that matched between the App and the experts for the same image. The third column, ‘Romania’,  in each case displays matching feeding and visitation plants from Romania (based on GloBI (reference)), the host location of the Hackathon, as iNaturalists provides no observations for *I. mexicana* from that country. For better readability, the table is sorted by descending number of expert identifications.
 
 | Species list - experts | No of identifications | Species list plantNet App (scores > 0.5) | No of identifications | Romania |
 |-------------------------|-------------------------|--------------------------------------------|-------------------------|---------|
@@ -153,21 +156,21 @@ Table 3: List of plant species visited by *I. mexicana* from expert verification
 |                      |    | *Solidago chilensis*         | 3 |   |
 
 <sup>1</sup> Bosch 2018 (referring to all *Solidago sp.* and all *Mentha sp.*)
-
 <sup>2</sup> Tischendorf 2018
-
 <sup>3</sup> Rennwald 2005 (referring to all *Solidago sp.*)
-
 <sup>4</sup> Cetcovic et al. (2012)
-
 <sup>+</sup> This did not match with the expert identification, i.e. suggestion for a different observations.
+
+
 
 ### Color preferences and type of interactions recorded
 The most frequently photographed flower color associated with *I. mexicana* was white, followed by yellow, and then, significantly less frequently, purple, blue, and pink (Figure 3 a). Feeding or sitting on flowers was also the most common interaction in which the wasp was observed, but resting on non-flowering plants was also frequently recorded (Figure 3 b). 
 Please keep sections to a maximum of three levels, even better if only two levels.
 
+
 ![](./Figures/Figure3_sm.jpeg)
 **Figure 3.** a) Colour preferences and b) type of interaction as classified from iNaturalist images by experts.
+
 
 
 ## Discussion and conclusions
@@ -191,7 +194,7 @@ In conclusion, the workflow presented here is implementable if the score thresho
 
 
 # Acknowledgements
-This paper is a product of the COST Action CA17122 - Alien-CSI supported by COST (European Cooperation in Science and Technology) <[www.cost.eu](https://www.cost.eu/)> special thanks goes to Pierre Bonnet, Mathias Chouet, Alexis Joly and Antoine Affouard from the pl@ntNet team for their very kind and helpful support.
+This paper is a product of the COST Action CA17122 - Alien-CSI supported by COST (European Cooperation in Science and Technology) <[www.cost.eu](https://www.cost.eu/)>. Special thanks go to Pierre Bonnet, Mathias Chouet, Alexis Joly and Antoine Affouard from the pl@ntNet team for their very kind and helpful support.
 
 # References
 
