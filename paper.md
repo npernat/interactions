@@ -56,8 +56,7 @@ In this study, we investigated the possibility of inferring information about in
 
 We selected the Mexican grass-carrying wasp, *Isodontia mexicana* (Saussure, 1867), Sphecidae, as the target pollinator from iNaturalist primary observations. This wasp is of particular interest for this and future studies for several reasons. First, it has a characteristic morphology and feeds on nectar, which is why it is frequently recorded on plants. Second, it is an invasive species in Europe first introduced in France in the 1960ies (reference), and little is known about its invasion biology [@10.19263/REDIA-103.20.10]. iNaturalist observations include its invasive range, but also its native range in North America. Third, because of the wasps' intriguing behavior of carrying grass leaves and prey for their larvae, such as grasshoppers, into their nests, other types of interactions may be recorded by citizen scientists in addition to those with plants. 
 
-![**Figure 1**:  A photograph of *Isodontia mexicana* visiting flowers of *Pycnanthemum tenuifolium* posted to [iNaturalist](https://www.inaturalist.org/observations/91809468) from its native range in North America. 	© Louise Woodrich, used under the {CC-By](http://creativecommons.org/licenses/by/4.0/) license.](figures/Fig1.png)
-
+![](./Figures/Figure_1.jpeg)
 **Figure 1.** A photograph of *Isodontia mexicana* visiting flowers of *Pycnanthemum tenuifolium* posted to [iNaturalist](https://www.inaturalist.org/observations/91809468) from its native range in North America. 	© Louise Woodrich, used under the {CC-By](http://creativecommons.org/licenses/by/4.0/) license.
 
 The objective of the test study was
@@ -121,8 +120,7 @@ Table 2: Total and percentage of agreement between plantNet and expert species i
 *List of plant species, genera and family visited by I. mexicana*
 Figure 2 illustrates for which plant species, genera and families the identification matched with a score higher than 0.8 for species, and higher than 0.5 for genera and families. To update the plant species list I. mexicana interacts with, we tabled all results from the experts verifying the iNaturalist images manually, independent from the scores of the App (Table 3). 
 
-![**Figure 2**: Matching plant species (a), genera (b) and families (c) from expert and app identification, with scores higher than 0.8 or 0.5, respectively.](figures/Fig2.png)
-
+![](./Figures/Fig2.tiff)
 **Figure 2.** Matching plant species (a), genera (b) and families (c) from expert and app identification, with scores higher than 0.8 or 0.5, respectively.
 
 Very interesting contexts emerge when looking at the individual observations of those genera (Fig. 2 b) that were only indicated by the App. The genus *Symphoricarpos* is always referred to by the experts as the genus *Lonicera*, the genus *Succisella* as *Knautia* and the genus *Pastinaca* as *Smyrnium*. In all three cases, the two different genera belong to the same family and there is a great similarity in flower shape. The last case also explains the difference in species identification (where the App's suggestion for *Pastinaca sativa* is identified by the experts as *Smyrnium perfoliatum*). The expert identification in the iNaturalist images is also revealing, where the App suggested *Pycnanthemum* as the genus. Here the botanists have mostly given "need_id" - and in fact this genus only occurs in the USA and Canada, i.e. it is outside the geographical range of botanist expertise. And indeed, all the observations of *I. mexicana* on *Pycnanthemum* were made on the North American continent. The same applies to the genus *Eupatorium*, of which only one species was introduced into Europe as an ornamental plant and thus also, but rarely, occurs in the wild. In contrast, the suggestion of the genus *Melilotus*, which originally only occurs in Eurasia, is based on an iNaturalist observation from the USA, which would also be evidence (if the App is correct (score=0.71)) of the neophyte in North America.
@@ -166,8 +164,7 @@ Table 3: List of plant species visited by *I. mexicana* from expert verification
 The most frequently photographed flower color associated with *I. mexicana* was white, followed by yellow, and then, significantly less frequently, purple, blue, and pink (Figure 3 a). Feeding or sitting on flowers was also the most common interaction in which the wasp was observed, but resting on non-flowering plants was also frequently recorded (Figure 3 b). 
 Please keep sections to a maximum of three levels, even better if only two levels.
 
-![Figure 3:  a) Colour preferences and b) type of interaction as classified from iNaturalist images by experts.](figures/Fig3.png)
-
+![](./Figures/Figure_3.tif)
 **Figure 3.** a) Colour preferences and b) type of interaction as classified from iNaturalist images by experts.
 
 ## Discussion & Conclusions
