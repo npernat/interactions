@@ -164,7 +164,7 @@ Table 3: List of plant species visited by *I. mexicana* from expert verification
 The most frequently photographed flower color associated with *I. mexicana* was white, followed by yellow, and then, significantly less frequently, purple, blue, and pink (Figure 3 a). Feeding or sitting on flowers was also the most common interaction in which the wasp was observed, but resting on non-flowering plants was also frequently recorded (Figure 3 b). 
 Please keep sections to a maximum of three levels, even better if only two levels.
 
-![](./Figures/Figure3.jpeg)
+![](./Figures/Figure3_sm.jpeg)
 **Figure 3.** a) Colour preferences and b) type of interaction as classified from iNaturalist images by experts.
 
 ## Discussion & Conclusions
