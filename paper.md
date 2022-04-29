@@ -155,7 +155,7 @@ Figure 2 illustrates for which plant species, genera and families the identifica
 |                      |    | *Eupatorium perfoliatum*     | 3 |   |
 |                      |    | *Solidago chilensis*         | 3 |   |
 
-<sup>1</sup> [@0.1002/biuz.201810645] (referring to all *Solidago sp.* and all *Mentha sp.*)
+<sup>1</sup> [@10.1002/biuz.201810645] (referring to all *Solidago sp.* and all *Mentha sp.*)
 <sup>2</sup> [@2016:Tischendorf]
 <sup>3</sup> [@2005:Rennwald] (referring to all *Solidago sp.*)
 <sup>4</sup> [@2012:Ćetković]
