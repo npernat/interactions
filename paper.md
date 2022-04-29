@@ -156,9 +156,9 @@ Figure 2 illustrates for which plant species, genera and families the identifica
 |                      |    | *Solidago chilensis*         | 3 |   |
 
 <sup>1</sup> [@0.1002/biuz.201810645] (referring to all *Solidago sp.* and all *Mentha sp.*)
-<sup>2</sup> [@Tischendorf:2016]
-<sup>3</sup> [@Rennwald:2005] (referring to all *Solidago sp.*)
-<sup>4</sup> [@Ćetković:2012]
+<sup>2</sup> [@2016:Tischendorf]
+<sup>3</sup> [@2005:Rennwald] (referring to all *Solidago sp.*)
+<sup>4</sup> [@2012:Ćetković]
 <sup>+</sup> This did not match with the expert identification, i.e. two different observations.
 
 
