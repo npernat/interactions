@@ -80,8 +80,9 @@ To review plantNet candidates, botanical experts examined the iNaturalist images
 The identification of plant species from the iNaturalists images were done blind, meaning, the suggestions of the App for the single images were not provided. During the time of the Hackathon the expert botanists could identify a subset of ~300 iNaturalist images, of which we used 250 for this test study. Of these 250 images, a plant species was identified in 15.2%, a plant genus on 44.4%, and a plant family on 69.2% (Table 1) by the botanists.
 
 **Table 1**: Proportion of identifiable plant species, genera and families from iNaturalist images by experts (need_id = plant unknown to the botanist, noflower = plant, but no flower, unidentifiable = no plant at all).
+
 | **Species** | **n** | **%** |
-|---|---|---|
+|---|:-:|:-:|
 | identified | 38 | 15.2 |
 | need_id | 63 | 25,2 |
 | noflower | 53 | 21.2 |
@@ -108,6 +109,7 @@ The maximum score obtained by the App was 0.94, the minimum score was 0.001 (low
 To obtain a better assessment of the App's performance and accuracy thresholds, the comparative analysis continued with only the first suggestion (highest score) for each image. Table 2 shows the percentage matches between plantNet and the expert identification for different score thresholds, considering only the observations that were identified by the experts (i.e., did not fall into any of the *unidentifiable*, *need_id*, or *noflower* categories). 
 
 **Table 2**: Total and percentage of agreement between plantNet and expert species identification at different score thresholds up- and downward. The differences between number of observations and number of matching ranks result from the exclusion of images unidentified by the experts.
+
 | Agreement App/Experts | species n (%) | genus n (%) | family n (%) |
 |-----------------------|---------------|-------------|--------------|
 | Score > 0.8 (n = 5)   | 4 (80)        | 5 (83.3)    | 6 (100)      |
@@ -128,38 +130,38 @@ Figure 2 illustrates for which plant species, genera and families the identifica
 
 **Table 3**: List of plant species visited by *I. mexicana* from expert verification of iNaturalist images and from plantNet with scores higher than >0.5, aligned with what is known from the literature. In bold are the identifications that matched between the App and the experts for the same image. The third column, ‘Romania’,  in each case displays matching feeding and visitation plants from Romania (based on GloBI), the host location of the Hackathon, as iNaturalists provides no observations for *I. mexicana* from that country. For better readability, the table is sorted by descending number of expert identifications.
 
-| Species list - experts | No of identifications | Species list plantNet App (scores > 0.5) | No of identifications | Romania |
-|-------------------------|-------------------------|--------------------------------------------|-------------------------|---------|
-| *Smyrnium perfoliatum*    | 5                       |                                            |                         |         |
-| *Eryngium campestre*<sup>1,2</sup>  | 4                       |                                            |                         | x       |
-| *Mentha spicata*<sup>1</sup>        | 4                       | *Mentha spicata*                             | 3                       |         |
-| *Mentha suaveolens*<sup>1</sup>      | 4                       | *Mentha suaveolens*                          | 3                       |         |
-| *Eryngium planum*<sup>1,3</sup>     | 3                       | *Eryngium planum*                            | 1                       |         |
-| *Solidago canadensis*<sup>1,2</sup>  | 3                       |                                            |                         | x       |
-| *Cirsium arvense*<sup>1</sup>       | 2                       | *Cirsium arvense*<sup>+</sup>                           | 1                       |         |
-| *Daucus carota*<sup>1,2</sup>        | 2                       | *Daucus carota*                              | 1                       | x       |
-| *Knautia drymeia*         | 2                       |                                            |                         |         |
-| *Mentha longifolia*<sup>1,4</sup>    | 2                       |                                            |                         |         |
-| *Solidago virgaurea*<sup>1,2,3</sup> | 2                       |                                            |                         |         |
-| *Achillea millefolium*<sup>1</sup>   | 1                       | *Achillea millefolium*                       | 2                       | x       |
-| *Echium italicum*         | 1                       |                                            |                         |         |
-| *Erigeron annuus*         | 1                       |                                            |                         | x       |
-| *Seseli annuum*        | 1  |                            |   |   |
-| *Solidago gigantea*<sup>1,3</sup> | 1  |                            |   |   |
-|                      |    | *Euonymus japonicus*         | 1 |   |
-|                      |    | *Melilotus albus*            | 1 | x |
-|                      |    | *Pastinaca sativa*           | 1 |   |
-|                      |    | *Pycnanthemum tenuifolium*   | 1 |   |
-|                      |    | *Succisella inflexa*         | 1 |   |
-|                      |    | *Symphoricarpos orbiculatus* | 1 |   |
-|                      |    | *Eupatorium perfoliatum*     | 3 |   |
-|                      |    | *Solidago chilensis*         | 3 |   |
+| Experts | # | plantNet App | # | Romania |
+|---------|:-:|--------------|:-:|:-:|
+| *Smyrnium perfoliatum* | 5| | | |
+| *Eryngium campestre*^1,2^  | 4| | | x |
+| *Mentha spicata*^1^ | 4 | *Mentha spicata* | 3 | |
+| *Mentha suaveolens*^1^ | 4 | *Mentha suaveolens* | 3 | |
+| *Eryngium planum*^1,3^ | 3 | *Eryngium planum* | 1 | |
+| *Solidago canadensis*^1,2^ | 3 | | | x |
+| *Cirsium arvense*^1^ | 2 | *Cirsium arvense*^+^ | 1 | |
+| *Daucus carota*^1,2^ | 2 | *Daucus carota* | 1 | x |
+| *Knautia drymeia* | 2 | | | |
+| *Mentha longifolia*^1,4^ | 2 | | | |
+| *Solidago virgaurea*^1,2,3^ | 2 | | | |
+| *Achillea millefolium*^1^   | 1 | *Achillea millefolium* | 2 | x |
+| *Echium italicum* | 1 | | | |
+| *Erigeron annuus* | 1 | | | x |
+| *Seseli annuum* | 1  | | |   |
+| *Solidago gigantea*^1,3^ | 1  | | | |
+| |    | *Euonymus japonicus* | 1 |   |
+| |    | *Melilotus albus* | 1 | x |
+| |    | *Pastinaca sativa* | 1 |   |
+| |    | *Pycnanthemum tenuifolium* | 1 |   |
+| |    | *Succisella inflexa* | 1 |   |
+| |    | *Symphoricarpos orbiculatus* | 1 |   |
+| |    | *Eupatorium perfoliatum* | 3 |   |
+| |    | *Solidago chilensis* | 3 |   |
 
-<sup>1</sup> [@10.1002/biuz.201810645] (referring to all *Solidago sp.* and all *Mentha sp.*)
-<sup>2</sup> [@Tischendorf2016]
-<sup>3</sup> [@Rennwald2005] (referring to all *Solidago sp.*)
-<sup>4</sup> [@Ćetković2012]
-<sup>+</sup> This did not match with the expert identification, i.e. two different observations.
+^1^ [@10.1002/biuz.201810645] (referring to all *Solidago sp.* and all *Mentha sp.*)
+^2^ [@Tischendorf2016]
+^3^ [@Rennwald2005] (referring to all *Solidago sp.*)
+^4^ [@Ćetković2012]
+^+^ This did not match with the expert identification, i.e. two different observations.
 
 
 ### Color preferences and type of interactions recorded
