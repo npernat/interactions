@@ -1,5 +1,5 @@
 ---
-title: 'An iNaturalist-pl@ntNet-workflow to identify plant-pollinator interactions – a case study of Isodontia mexicana'
+title: 'An iNaturalist-Pl@ntNet-workflow to identify plant-pollinator interactions – a case study of *Isodontia mexicana*'
 tags:
   - invasive species
   - citizen science
@@ -45,7 +45,7 @@ biohackathon_location: Constanța, Romania
 
 # Introduction
 
-Launched in 2008, [iNaturalist](https://www.inaturalist.org/) has become a worldwide platform for recording and sharing nature’s observations, mostly evidenced through photographs  of the organism. It is probably the single largest source of Open insect observations globally. These observations are used to identify the species by consensus of the community and thus support scientists with research quality data to understand and protect biodiversity. [Pl@ntNet](https://plantnet.org/en/) is a similarly well used system, also with global scope, but with a focus on plants [@10.1002/2688-8319.12023]. Both platforms use machine learning to help users identify the species they have photographed.
+Launched in 2008, [iNaturalist](https://www.inaturalist.org/) has become a worldwide platform for recording and sharing observations of nature, mostly evidenced through photographs of the organism. It is probably the single largest source of Open insect observations globally [@inat2022]. These observations are used to identify the species by consensus of the community and thus support scientists with research quality data to understand and protect biodiversity. [Pl@ntNet](https://plantnet.org/en/) is a similarly well used system, also with global scope, but with a focus on plants [@10.1002/2688-8319.12023]. Both platforms use machine learning to help users identify the species they have photographed.
 
 
 Recently, not only the primary observations (e.g. the identified species on the image) are used for research, but also the additional, mostly inadvertently documented information in the pictures have gained attention - the so-called secondary data [@10.1093/biosci/biaa131]. Pioneer studies have used iNaturalist secondary data to learn more about ecological interactions, e.g. measure the predation pressure on lizards by estimating their tail length [10.1038/s41598-021-82491-y] or to document changes in bat handling due to the Covid pandemic [@10.3897/BDJ.9.e68052]. 
