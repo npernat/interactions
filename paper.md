@@ -56,7 +56,7 @@ In this study, we investigated the possibility of inferring information about in
 
 We selected the Mexican grass-carrying wasp, *Isodontia mexicana* (Saussure, 1867), Sphecidae, as the target pollinator from iNaturalist primary observations (Fig. 1). This wasp is of particular interest for this and future studies for several reasons. First, it has a characteristic morphology and feeds on nectar, which is why it is frequently recorded on plants. Second, it is an invasive species in Europe first introduced in France in the 1960ies [@Kelner-Pillault1962], and little is known about its invasion biology [@10.19263/REDIA-103.20.10]. iNaturalist observations include its invasive range, but also its native range in North America. Third, because of the wasps' intriguing behavior of carrying grass leaves and prey for their larvae, such as grasshoppers, into their nests, other types of interactions may be recorded by citizen scientists in addition to those with plants. 
 
-![A photograph of *Isodontia mexicana* visiting flowers of *Pycnanthemum tenuifolium*](./Figures/Figure1.jpeg) posted to [iNaturalist](https://www.inaturalist.org/observations/91809468) from its native range in North America. &copy; Louise Woodrich, used under the [CC-By](http://creativecommons.org/licenses/by/4.0/) license.
+![A photograph of Isodontia mexicana visiting flowers of Pycnanthemum tenuifolium](./Figures/Figure1.jpeg) posted to [iNaturalist](https://www.inaturalist.org/observations/91809468) from its native range in North America. &copy; Louise Woodrich, used under the [CC-By](http://creativecommons.org/licenses/by/4.0/) license.
 
 
 The objective of the test study was 
