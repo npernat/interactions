@@ -111,7 +111,7 @@ To obtain a better assessment of the App's performance and accuracy thresholds, 
 
 | Agreement App/Experts | species n (%) | genus n (%) | family n (%) |
 |-----------------------|---------------|-------------|--------------|
-| Score > 0.8 (n = 5)   | 6 (83.3)      | 5 (83.3)    | 6 (100)      |
+| Score > 0.8 (n = 5)   | 5 (83.3)      | 5 (83.3)    | 6 (100)      |
 | Score > 0.5 (n = 23)  | 5 (55.5)      | 14 (82.4)   | 20 (90.1)    |
 | Score > 0.3 (n = 68)  | 8 (44.4)      | 26 (72.2)   | 52 (86.8)    |
 | Score < 0.3 (n = 178) | 4 (19.0)      | 35 (47.9)   | 77 (69.4)    |
