@@ -187,7 +187,7 @@ In conclusion, the workflow presented here is implementable if the score thresho
 
 
 # Acknowledgements
-This paper is a product of the COST Action CA17122 - Alien-CSI supported by COST (European Cooperation in Science and Technology) <[www.cost.eu](https://www.cost.eu/)>. Special thanks go to Pierre Bonnet, Mathias Chouet, Alexis Joly and Antoine Affouard from the pl@ntNet team for their very kind and helpful support.
+This paper is a product of the COST Action CA17122 - Alien-CSI supported by COST (European Cooperation in Science and Technology) <[www.cost.eu](https://www.cost.eu/)>. Special thanks go to Pierre Bonnet, Mathias Chouet, Alexis Joly, Antoine Affouard and Jean-Christophe Lombardo from the Pl@ntNet team for their very kind and helpful support. The Pl@ntNet API used in the study was developed based on funding from the European Union’s Horizon 2020 research and innovation program under grant agreement No 863463 (Cos4Cloud project).
 
 # References
 
