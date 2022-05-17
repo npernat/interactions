@@ -36,7 +36,7 @@ affiliations:
 date: 06. May 2022
 bibliography: paper.bib
 authors_short: Pernat et al.
-group: 
+group: Isodontia mexicana
 event: Alien-CSI Hackathon, Romania, 2022
 biohackathon_name: Alien-CSI Hackathon, Romania, 2022
 biohackathon_url: https://alien-csi.eu/
